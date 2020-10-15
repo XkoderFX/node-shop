@@ -1,0 +1,8 @@
+{
+    "env": {
+        "MONGO_USER": "koder1554",
+        "MONGO_PASSWORD": "j16004r55",
+        "MONGO_DEFAULT_DATABASE": "shop",
+        "PORT": "8080"
+    }
+}
