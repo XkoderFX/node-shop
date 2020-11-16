@@ -61,6 +61,7 @@ app.use(helmet());
 app.use(compression());
 app.use(morgan("combined"));
 
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(
     multer({ storage: fileStorage, fileFilter: fileFilter }).single("image")
